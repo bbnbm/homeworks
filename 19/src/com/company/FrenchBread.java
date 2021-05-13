@@ -29,13 +29,17 @@ public class FrenchBread extends Bread {
     public FrenchBread(double weight, double price) {
         super(weight, price);
     }
+    public void rubCevat(){
+        System.out.println("Зарубцевали");
+    }
+
     void bake1(){
+        rubCevat();
         System.out.println("Багет готов");
     }
     void pack1(){
-        System.out.println("Упаковали багет");
+        System.out.println("Только в экогологичный пакет");
     }
-
     @Override
     public String toString() {
         return "FrenchBread{" +
