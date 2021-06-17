@@ -15,4 +15,16 @@ public class Waiter extends Employee {
     public void countOrder(){
         System.out.println("Count an order");
     }
+
+    @Override
+    public String toString() {
+        return "Waiter{" +
+                "position='" + position + '\'' +
+                ", salary=" + salary +
+                ", prize=" + prize +
+                ", fine=" + fine +
+                ", experience=" + experience +
+                ", vacation=" + vacation +
+                '}';
+    }
 }

@@ -23,4 +23,12 @@ public class Security {
     public void kickOut(){
         System.out.println("Kick out people");
     }
+
+    @Override
+    public String toString() {
+        return "Security{" +
+                "armed='" + armed + '\'' +
+                ", typeOfArm='" + typeOfArm + '\'' +
+                '}';
+    }
 }

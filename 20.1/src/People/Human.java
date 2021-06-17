@@ -28,4 +28,5 @@ public class Human {
     public String getMale() {
         return male;
     }
+
 }

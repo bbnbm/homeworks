@@ -46,4 +46,13 @@ public class Guest extends Human {
     public void callForWaiter(){
         System.out.println("Call for a waiter");
     }
+
+    @Override
+    public String toString() {
+        return "Guest{" +
+                "permanent='" + permanent + '\'' +
+                ", averagePay=" + averagePay +
+                ", isFaceControl=" + isFaceControl +
+                '}';
+    }
 }

@@ -54,6 +54,18 @@ public class Employee extends Human {
     public void goToVacation(){
         System.out.println("I go to vacation");
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "position='" + position + '\'' +
+                ", salary=" + salary +
+                ", prize=" + prize +
+                ", fine=" + fine +
+                ", experience=" + experience +
+                ", vacation=" + vacation +
+                '}';
+    }
 }
 
 

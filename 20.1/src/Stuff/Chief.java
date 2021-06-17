@@ -33,4 +33,13 @@ public class Chief  extends Employee{
     public void cookMeal(){
         System.out.println("I'm cooking meal");
     }
+
+    @Override
+    public String toString() {
+        return "Chief{" +
+                "menu='" + menu + '\'' +
+                ", type='" + type + '\'' +
+                ", awards='" + awards + '\'' +
+                '}';
+    }
 }
